@@ -212,7 +212,7 @@ public class Bhaskara extends javax.swing.JFrame {
                         prim_raiz = String.valueOf(primera_raiz);
                         seg_raiz = String.valueOf(segunda_raiz);
 
-                        raices = determinarRaices(prim_raiz, seg_raiz);
+                        raices = determinarRaices(prim_raiz, seg_raiz); // Determina el formato de las raíces
 
                         resultTextField.setText(raices);
 
