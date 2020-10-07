@@ -180,7 +180,6 @@ public class Bhaskara extends javax.swing.JFrame {
         // Zona de declaración de variables
         double discriminante, termino_cuadratico, termino_lineal, constante, res, raiz_doble, primera_raiz, segunda_raiz;
         String prim_raiz, seg_raiz, raices;
-        boolean continuar;
         // Zona de inicialización de variables
 
         if (firstComponentTextField.getText().isEmpty() || secondComponentTextField.getText().isEmpty() || thirdComponentTextField.getText().isEmpty()) {
