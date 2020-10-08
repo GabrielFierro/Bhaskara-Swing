@@ -5,7 +5,6 @@
  */
 package bhaskara;
 
-import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
 /**
@@ -184,12 +183,12 @@ public class Bhaskara extends javax.swing.JFrame {
 
         if (firstComponentTextField.getText().isEmpty() || secondComponentTextField.getText().isEmpty() || thirdComponentTextField.getText().isEmpty()) {
             JOptionPane.showMessageDialog(null,"Complete los campos vacíos");
-        } else {
-
-            termino_cuadratico = Double.parseDouble(firstComponentTextField.getText());
-            termino_lineal = Double.parseDouble(secondComponentTextField.getText());
-            constante = Double.parseDouble(thirdComponentTextField.getText());
+        } else {        
             
+            termino_cuadratico = obtenerNumeroDecimal(firstComponentTextField.getText());
+            termino_lineal = obtenerNumeroDecimal(secondComponentTextField.getText());
+            constante = obtenerNumeroDecimal(thirdComponentTextField.getText());
+                        
             // Primero verifica que se trate de una función cuadrática
             if (termino_cuadratico == 0) {
                 resultTextField.setText("El término cuadrático debe ser distinto a cero");
@@ -285,6 +284,24 @@ public class Bhaskara extends javax.swing.JFrame {
 
         return resultado;
     }
+    
+    private static double obtenerNumeroDecimal(String entrada){
+        /*
+        Algoritmo que dada una cadena de caracteres, identifica dicha cadena, clasificandola en una fracción
+        o en un número con decimal, para operar y retornar el número real.
+        */
+        // Zona de declaración de variable
+        double resultado;
+
+        if (entrada.contains("/")) {
+            String[] cadena = entrada.split("/");
+            resultado = Double.parseDouble(cadena[0]) / Double.parseDouble(cadena[1]);
+        } else {
+            resultado = Double.parseDouble(entrada);
+        }
+        return resultado;
+    }
+    
 
     private static String determinarRaices(String prim_raiz, String seg_raiz) {
         /*
@@ -309,6 +326,7 @@ public class Bhaskara extends javax.swing.JFrame {
         }
         return resultado;
     }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel firstComponentLabel;
