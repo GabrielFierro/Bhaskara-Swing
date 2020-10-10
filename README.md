@@ -2,7 +2,7 @@
 
 Aplicación que resuelve una ecuación cuadrática hecha con Swing.
 
-[formula_de_bhaskara.PNG](formula_de_bhaskara.PNG)
+![formula_de_bhaskara.PNG](https://raw.githubusercontent.com/GabrielFierro/Bhaskara-Swing/master/formula_de_bhaskara.PNG)
 
 ## ¿Cómo funciona?
 
