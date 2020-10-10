@@ -19,8 +19,8 @@ Apretás en el botón Resolver e inmediatamente en el campo de abajo, se mostrar
 
 ## Soy nuevo en Github, ¿dónde encuentro el link al programa?
 
-Podés dirigirte al siguiente link: [link](https://github.com/GabrielFierro/Bhaskara-Swing/blob/master/dist/Bhaskara.jar), y luego hacer click sobre "View raw" y se descargará un archivo .jar.
+Podés dirigirte al siguiente link: [Bhaskara.jar](https://github.com/GabrielFierro/Bhaskara-Swing/blob/master/dist/Bhaskara.jar), y luego hacer click sobre "View raw" y se descargará un archivo .jar.
 
 ## Descargué el programa pero no se abre, ¿y ahora qué puedo hacer?
 
-Para ejecutarlo necesitás de la herramienta "Java Development Kit" (JDK), el cual podés conseguir en la siguiente página: [link](https://www.oracle.com/technetwork/es/java/javase/downloads/index.html). Una vez descargado e instalado, abrí nuevamente el programa y debería funcionar.
+Para ejecutarlo necesitás de la herramienta "Java Development Kit" (JDK), el cual podés conseguir en la siguiente página: [Oracle - JDK](https://www.oracle.com/technetwork/es/java/javase/downloads/index.html). Una vez descargado e instalado, abrí nuevamente el programa y debería funcionar.
